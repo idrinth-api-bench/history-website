@@ -16,6 +16,7 @@ module.exports = {
   ],
   parserOptions: {
     extraFileExtensions: ['.svelte'],
+    sourceType: 'module',
   },
   overrides: [
     {

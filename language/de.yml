@@ -3,3 +3,10 @@ overview:
   meta:
     title: "Projekte"
     description: "Alle Projekte in einer einfach zu verstehenden Übersicht."
+login:
+  title: "Anmelden"
+  username: "Benutzername"
+  submit: "Anmelden"
+  meta:
+    title: "Anmelden"
+    description: "Melden Sie sich bei Ihrem Konto an."

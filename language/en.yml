@@ -3,3 +3,10 @@ overview:
   meta:
     title: "Projects"
     description: "All your projects in an easy to grasp overview."
+login:
+  username: "Username"
+  submit: "Login"
+  title: "Login"
+  meta:
+      title: "Login"
+      description: "Login to your account."

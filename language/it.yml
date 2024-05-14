@@ -3,3 +3,10 @@ overview:
   meta:
     title: "Progetti"
     description: "Tutti i tuoi progetti in un'unica semplice interfaccia."
+login:
+  title: "Accedi"
+  username: "Username"
+  submit: "Accedi"
+  meta:
+    title: "Accedi"
+    description: "Accedi al tuo account."
