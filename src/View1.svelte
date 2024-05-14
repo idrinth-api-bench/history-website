@@ -1,12 +1,10 @@
 <script async lang="ts" context="module">
-  import t from "./lib/t";
+  import GlobalPerformanceLineChart from './components/GlobalPerformanceLineChart.svelte';
   import { getProjects } from './lib/http-client.js';
   import type { ProjectsResponse } from './lib/response-types';
-  import GlobalPerformanceLineChart from './components/GlobalPerformanceLineChart.svelte';
+  import t from "./lib/t";
 
   const projectMetricsResponse: ProjectsResponse = await getProjects();
-</script>
-<script>
 </script>
 
 <div class="view-1">

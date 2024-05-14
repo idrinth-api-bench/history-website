@@ -2,16 +2,16 @@
   export let projectMetricsResponse: ProjectsResponse; // prop
 
   import 'chart.js/auto'; // lazy loading
-  import t from '../lib/t.js';
-  import type { ChartData } from 'chart.js';
-  import type { ProjectMetrics, ProjectsResponse } from '../lib/response-types';
-  import type { Writable } from 'svelte/store';
+  import type { ChartData, Point } from 'chart.js';
   import { Line } from 'svelte-chartjs';
+  import type { Writable } from 'svelte/store';
   import { writable } from 'svelte/store';
+  import type { ProjectMetrics, ProjectsResponse } from '../lib/response-types';
+  import t from '../lib/t.js';
 
   export const selectedMetric: Writable<keyof ProjectMetrics> = writable('mean');
 
-  let data: ChartData<'line'>;
+  let data: ChartData<"line", (number | Point)[], unknown>;
 
   $: {
     data = {
