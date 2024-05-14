@@ -29,6 +29,8 @@
   <h2>{t('view-1.global-performance')}</h2>
   {#if lineChartData}
     <Line data="{lineChartData}"/>
+  {:else}
+    <p>{t('loading')}</p>
   {/if}
 </div>
 

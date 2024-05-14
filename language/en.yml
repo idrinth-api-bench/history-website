@@ -16,3 +16,4 @@ view-1:
   meta:
     title: "View 1"
   global-performance: "Global Performance"
+loading: "Loading..."
