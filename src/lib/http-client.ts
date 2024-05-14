@@ -24,7 +24,7 @@ export const fetcher = async <T>(url: string, options?: FetcherOptions): Promise
     }
   );
   if (! response.ok) {
-    throw new Error("Failed to fetch");
+    throw new Error(`Failed to fetch: ${response.status} ${response.statusText}`);
   }
   return await response.json();
 }

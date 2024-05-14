@@ -3,6 +3,7 @@
   import 'chart.js/auto'; // lazy loading
   import { getProjects } from './lib/http-client.js';
   import type { ChartData } from 'chart.js';
+  import t from "./lib/t";
 
   const response = await getProjects();
 
@@ -22,11 +23,10 @@
 
 <div class="view-1">
   <!-- TODO: translate -->
-  <h1>View 1</h1>
-  <p>A line graph per project to compare their global performance(user choice of Average or Median) + a bar graph with
-     the error count</p>
+  <h1>{t('view-1.title')}</h1>
+  <p>{t('view-1.description')}</p>
 
-  <h2>Global Performance</h2>
+  <h2>{t('view-1.global-performance')}</h2>
   {#if lineChartData}
     <Line data="{lineChartData}"/>
   {/if}

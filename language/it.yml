@@ -10,3 +10,9 @@ login:
   meta:
     title: "Accedi"
     description: "Accedi al tuo account."
+view-1:
+  title: "Vista 1"
+  description: "Un grafico a linee per progetto per confrontare le prestazioni globali (scelta dell'utente tra Media o Mediana) + un grafico a barre con il conteggio degli errori"
+  meta:
+    title: "Vista 1"
+  global-performance: "Performance Globale"
