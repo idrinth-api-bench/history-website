@@ -15,5 +15,8 @@ view-1:
   description: "A line graph per project to compare their global performance(user choice of Average or Median) + a bar graph with the error count"
   meta:
     title: "View 1"
-  global-performance: "Global Performance"
+global-performance-chart:
+  title: "Global Performance"
+  mean: "Mean"
+  average: "Average"
 loading: "Loading..."
