@@ -26,8 +26,8 @@
           tension: 0.1,
         },
         {
-          data: Object.values(routeMetricsResponse).map(metrics => metrics.mean80 ? Number(metrics.mean80) / 1000000 : 0),
-          label: 'mean80',
+          data: Object.values(routeMetricsResponse).map(metrics => metrics.median80 ? Number(metrics.median80) / 1000000 : 0),
+          label: 'median80',
           tension: 0.1,
         },
         {
@@ -47,8 +47,8 @@
           tension: 0.1,
         },
         {
-          data: Object.values(routeMetricsResponse).map(metrics => metrics.mean100 ? Number(metrics.mean100) / 1000000 : 0),
-          label: 'mean100',
+          data: Object.values(routeMetricsResponse).map(metrics => metrics.median100 ? Number(metrics.median100) / 1000000 : 0),
+          label: 'median100',
           tension: 0.1,
         },
         {
