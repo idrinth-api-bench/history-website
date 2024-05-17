@@ -16,6 +16,16 @@
       labels: Object.keys(routeMetricsResponse),
       datasets: [
         {
+          data: Object.values(routeMetricsResponse).map(metrics => metrics.max80 ? Number(metrics.max80) / 1000000 : 0),
+          label: 'max80',
+          tension: 0.1,
+        },
+        {
+          data: Object.values(routeMetricsResponse).map(metrics => metrics.min80 ? Number(metrics.min80) / 1000000 : 0),
+          label: 'min80',
+          tension: 0.1,
+        },
+        {
           data: Object.values(routeMetricsResponse).map(metrics => metrics.mean80 ? Number(metrics.mean80) / 1000000 : 0),
           label: 'mean80',
           tension: 0.1,
@@ -25,6 +35,16 @@
           label: 'avg80',
           tension: 0.1,
           stdev: Object.values(routeMetricsResponse).map(metrics => metrics.stdv80 ? Number(metrics.stdv80) / 1000000 : 0),
+        },
+        {
+          data: Object.values(routeMetricsResponse).map(metrics => metrics.max100 ? Number(metrics.max100) / 1000000 : 0),
+          label: 'max100',
+          tension: 0.1,
+        },
+        {
+          data: Object.values(routeMetricsResponse).map(metrics => metrics.min100 ? Number(metrics.min100) / 1000000 : 0),
+          label: 'min100',
+          tension: 0.1,
         },
         {
           data: Object.values(routeMetricsResponse).map(metrics => metrics.mean100 ? Number(metrics.mean100) / 1000000 : 0),
@@ -48,7 +68,6 @@
         scales: {
           y: {
             beginAtZero: true,
-            max: 7,
           }
         }
       }}"/>
