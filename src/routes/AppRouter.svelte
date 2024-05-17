@@ -11,7 +11,7 @@
 
 <Router>
   <Header/>
-  <Route path="login">
+  <Route path="/login">
     <Login/>
   </Route>
   <PrivateRoute path="/">
