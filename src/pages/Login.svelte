@@ -1,6 +1,6 @@
 <script lang="ts" context="module">
-  import t from "./lib/t";
-  import { login } from './lib/http-client';
+  import t from "../lib/t";
+  import { login } from '../lib/http-client';
   import { navigate } from "svelte-routing";
 
   export let username = '';
