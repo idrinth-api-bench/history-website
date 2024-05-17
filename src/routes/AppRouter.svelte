@@ -1,11 +1,10 @@
 <script>
   import { Route, Router } from "svelte-routing";
   import PrivateRoute from "./PrivateRoutes.svelte";
-  import Login from "../Login.svelte";
-  import Home from '../Home.svelte';
-  import View1 from "../View1.svelte";
-  import View2 from "../View2.svelte";
-  import View3 from "../View3.svelte";
+  import Login from "../pages/Login.svelte";
+  import ProjectsPage from "../pages/Projects.svelte";
+  import ProjectPage from "../pages/Project.svelte";
+  import RoutePage from "../pages/Route.svelte";
   import Header from '../components/Header.svelte';
 </script>
 
@@ -15,15 +14,12 @@
     <Login/>
   </Route>
   <PrivateRoute path="/">
-    <Home/>
+    <ProjectsPage/>
   </PrivateRoute>
-  <PrivateRoute path="/view-1">
-    <View1/>
+  <PrivateRoute path="/:project" let:params>
+    <ProjectPage project={params.project}/>
   </PrivateRoute>
-  <PrivateRoute path="/view-2">
-    <View2/>
-  </PrivateRoute>
-  <PrivateRoute path="/view-3">
-    <View3/>
+  <PrivateRoute path="/:project/:route" let:params>
+    <RoutePage project={params.project} route={params.route}//>
   </PrivateRoute>
 </Router>

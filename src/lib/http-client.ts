@@ -50,7 +50,7 @@ export const logout = (): void => {
 }
 
 /**
- * Projects
+ * Projects+Routes
  */
 
 export const getProjects = async (): Promise<ProjectsResponse> => {
@@ -58,12 +58,9 @@ export const getProjects = async (): Promise<ProjectsResponse> => {
 }
 
 export const getProject = async (projectKey: string): Promise<ProjectResponse> => {
-  return await fetcher<ProjectResponse>(`project/${ projectKey }`);
+  return await fetcher<ProjectResponse>(`project/${ projectKey }/routes`);
 }
 
-/**
- * Routes
- */
-export const getRoute = async (route: string): Promise<RouteResponse> => {
-  return await fetcher<RouteResponse>(`route/${ route }`);
+export const getRoute = async (projectKey: string, route: string): Promise<RouteResponse> => {
+  return await fetcher<RouteResponse>(`project/${ projectKey }/route/${ route }`);
 }

@@ -19,11 +19,12 @@
   $: {
     data = {
       labels: Array.from(new Set(Object.values(projectMetricsResponse).map(projectMetrics => Object.keys(projectMetrics)).flat())),
-      datasets: Object.keys(projectMetricsResponse).map(project => (
+      datasets: Object.keys(projectMetricsResponse).map(route => (
         {
-          data: Object.values(projectMetricsResponse[ project ]).map(metrics => metrics[ $selectedMetric ] ? Number(metrics[ $selectedMetric ])/1000000 : 0),
-          label: project,
+          data: Object.values(projectMetricsResponse[ route ]).map(metrics => metrics[ $selectedMetric ] ? Number(metrics[ $selectedMetric ])/1000000 : 0),
+          label: route,
           tension: 0.1,
+          stdev: Object.values(projectMetricsResponse[ route ]).map(metrics =>  metrics[ $selectedMetric ] ? Number(metrics[ $selectedMetric ])/1000000 * Math.random() * 0.5 : 0),
         }
       )),
     };
