@@ -6,4 +6,4 @@ This folder will contain the Web-UI for displaying and comparing historical run 
 
 ### [Issues](https://github.com/idrinth-api-bench/issues)
 
-This is the issue repository for a typescript framework meant to performance test anything even remotely rest-like and related tools
+This is the issue repository for a typescript framework meant to performance test anything even remotely rest-like and related tools.
