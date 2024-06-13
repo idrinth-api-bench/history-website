@@ -1,5 +1,33 @@
 overview:
-  title: "Progetti"
+  title: 'Progetti'
   meta:
-    title: "Progetti"
+    title: 'Progetti'
     description: "Tutti i tuoi progetti in un'unica semplice interfaccia."
+login:
+  title: 'Accedi'
+  username: 'Username'
+  submit: 'Accedi'
+  meta:
+    title: 'Accedi'
+    description: 'Accedi al tuo account.'
+projects:
+  title: 'Progetti'
+  description: 'Un grafico a linea per progetto per comparare la loro performance globale + un grafico a barre con il conteggio degli errori.'
+  meta:
+    title: 'Progetti'
+project:
+  title: 'Progetto'
+  description: 'Un grafico a linea per rotta per comparare la loro performance globale + un grafico a barre con il conteggio degli errori.'
+  meta:
+    title: 'Progetto'
+  routes: 'Rotte'
+route:
+  title: 'Rotta'
+  description: 'Un grafico a linea per mediana e media per la rotta per comparare la loro performance e un grafico a barre con il conteggio degli errori.'
+  meta:
+    title: 'Rotta'
+global-performance-chart:
+  title: 'Performance Globale'
+  mean: 'Mediana'
+  average: 'Media'
+loading: 'Caricamento...'

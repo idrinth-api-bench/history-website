@@ -7,6 +7,8 @@
 /cypress/screenshots
 /src/locales
 /dump.txt
+.env
+.env.local
 
 # Editor directories and files
 .DS_Store

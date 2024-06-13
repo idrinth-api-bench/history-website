@@ -1,5 +1,33 @@
 overview:
-  title: "Projects"
+  title: 'Projects'
   meta:
-    title: "Projects"
-    description: "All your projects in an easy to grasp overview."
+    title: 'Projects'
+    description: 'All your projects in an easy to grasp overview.'
+login:
+  username: 'Username'
+  submit: 'Login'
+  title: 'Login'
+  meta:
+    title: 'Login'
+    description: 'Login to your account.'
+projects:
+  title: 'Projects'
+  description: 'A line graph per project to compare their global performance(user choice of Average or Median) + a bar graph with the error count'
+  meta:
+    title: 'Projects'
+project:
+  title: 'Project'
+  description: 'A line graph per route in the project to compare their global performance(user choice of Average or Median) + a bar graph with the error count'
+  meta:
+    title: 'Project'
+  routes: 'Routes'
+route:
+  title: 'Route'
+  description: 'A line graph per mean and average in the route to compare their and a bar graph with the error count'
+  meta:
+    title: 'Route'
+global-performance-chart:
+  title: 'Global Performance'
+  mean: 'Mean'
+  average: 'Average'
+loading: 'Loading...'
