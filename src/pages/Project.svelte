@@ -9,7 +9,6 @@
   let projectMetricsResponse: ProjectResponse;
   (async () => {
     projectMetricsResponse = await getProject(project);
-    console.log(projectMetricsResponse)
   })();
 </script>
 
