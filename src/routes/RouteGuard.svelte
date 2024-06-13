@@ -1,6 +1,6 @@
 <script lang="ts">
-  import {user} from "../stores";
-  import {useLocation, navigate} from "svelte-routing";
+  import { navigate, useLocation } from "svelte-routing";
+  import { user } from "../stores";
 
   const location = useLocation();
 

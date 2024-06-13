@@ -3,7 +3,7 @@
 
   import 'chart.js/auto'; // lazy loading
   import t from '../lib/t.js';
-  import {type ChartData, Chart, Point } from 'chart.js';
+  import {type ChartData, Chart, type Point } from 'chart.js';
   import type { ProjectMetrics, ProjectsResponse } from '../lib/response-types';
   import type { Writable } from 'svelte/store';
   import { Line } from 'svelte-chartjs';

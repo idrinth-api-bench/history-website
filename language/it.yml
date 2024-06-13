@@ -1,22 +1,32 @@
 overview:
-  title: "Progetti"
+  title: 'Progetti'
   meta:
-    title: "Progetti"
+    title: 'Progetti'
     description: "Tutti i tuoi progetti in un'unica semplice interfaccia."
 login:
-  title: "Accedi"
-  username: "Username"
-  submit: "Accedi"
+  title: 'Accedi'
+  username: 'Username'
+  submit: 'Accedi'
   meta:
-    title: "Accedi"
-    description: "Accedi al tuo account."
-view-1:
-  title: "Vista 1"
-  description: "Un grafico a linee per progetto per confrontare le prestazioni globali (scelta dell'utente tra Media o Mediana) + un grafico a barre con il conteggio degli errori"
+    title: 'Accedi'
+    description: 'Accedi al tuo account.'
+projects:
+  title: 'Progetti'
+  description: 'Un grafico a linea per progetto per comparare la loro performance globale + un grafico a barre con il conteggio degli errori.'
   meta:
-    title: "Vista 1"
+    title: 'Progetti'
+project:
+  title: 'Progetto'
+  description: 'Un grafico a linea per rotta per comparare la loro performance globale + un grafico a barre con il conteggio degli errori.'
+  meta:
+    title: 'Progetto'
+route:
+  title: 'Rotta'
+  description: 'Un grafico a linea per mediana e media per la rotta per comparare la loro performance e un grafico a barre con il conteggio degli errori.'
+  meta:
+    title: 'Rotta'
 global-performance-chart:
-  title: "Performance Globale"
-  mean: "Mediana"
-  average: "Media"
-loading: "Caricamento..."
+  title: 'Performance Globale'
+  mean: 'Mediana'
+  average: 'Media'
+loading: 'Caricamento...'

@@ -1,6 +1,6 @@
 <script lang="ts">
+  import { navigate, Route } from "svelte-routing";
   import RouteGuard from "./RouteGuard.svelte";
-  import {navigate, Route} from "svelte-routing";
 
   export let path: string;
 </script>
