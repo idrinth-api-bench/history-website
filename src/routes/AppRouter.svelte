@@ -1,5 +1,6 @@
 <script>
   import { Route, Router } from "svelte-routing";
+  import Breadcrumbs from "../components/Breadcrumbs.svelte";
   import Header from '../components/Header.svelte';
   import Login from "../pages/Login.svelte";
   import ProjectPage from "../pages/Project.svelte";
@@ -10,6 +11,7 @@
 
 <Router>
   <Header/>
+  <Breadcrumbs />
   <Route path="/login">
     <Login/>
   </Route>
