@@ -20,6 +20,7 @@ project:
   description: 'Un grafico a linea per rotta per comparare la loro performance globale + un grafico a barre con il conteggio degli errori.'
   meta:
     title: 'Progetto'
+  routes: 'Rotte'
 route:
   title: 'Rotta'
   description: 'Un grafico a linea per mediana e media per la rotta per comparare la loro performance e un grafico a barre con il conteggio degli errori.'

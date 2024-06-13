@@ -9,12 +9,24 @@
   let projectMetricsResponse: ProjectResponse;
   (async () => {
     projectMetricsResponse = await getProject(project);
+    console.log(projectMetricsResponse)
   })();
 </script>
 
 <div class="project">
   <h1>{t('project.title')}: {project}</h1>
   <p>{t('project.description')}</p>
+
+  <h2>{t('project.routes')}</h2>
+  <ul>
+    {#if projectMetricsResponse}
+      {#each Object.keys(projectMetricsResponse) as route}
+        <li>
+          <a href={`/${project}/${route}`}>{route}</a>
+        </li>
+      {/each}
+    {/if}
+  </ul>
 
   {#if projectMetricsResponse}
     <ProjectPerformanceLineChart {projectMetricsResponse}/>
