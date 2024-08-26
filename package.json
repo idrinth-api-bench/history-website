@@ -34,7 +34,7 @@
     "knip": "^5.25.2",
     "markdownlint-cli": "^0.41.0",
     "spellchecker-cli": "^6.2.0",
-    "svelte": "^4.2.18",
+    "svelte": "^4.2.19",
     "svelte-check": "^3.8.4",
     "svelte-eslint-parser": "^0.39.2",
     "typescript": "^5.5.3",
