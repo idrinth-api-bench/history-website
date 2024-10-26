@@ -29,7 +29,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@v4.1.0
         with:
           node-version: ${{ env.PREVIOUS_NODE_VERSION }}
           cache: 'npm'
@@ -56,7 +56,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@v4.1.0
         with:
           node-version: ${{ env.CURRENT_NODE_VERSION }}
           cache: 'npm'
@@ -83,7 +83,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@v4.1.0
         with:
           node-version: ${{ env.PREVIOUS_NODE_VERSION }}
           cache: 'npm'
@@ -110,7 +110,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js ${{ env.CURRENT_NODE_VERSION }}
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@v4.1.0
         with:
           node-version: ${{ env.CURRENT_NODE_VERSION }}
           cache: 'npm'
@@ -137,7 +137,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@v4.1.0
         with:
           node-version: ${{ env.PREVIOUS_NODE_VERSION }}
           cache: 'npm'
@@ -164,7 +164,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js ${{ env.CURRENT_NODE_VERSION }}
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@v4.1.0
         with:
           node-version: ${{ env.CURRENT_NODE_VERSION }}
           cache: 'npm'
@@ -191,7 +191,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js ${{ env.PREVIOUS_NODE_VERSION }}
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@v4.1.0
         with:
           node-version: ${{ env.PREVIOUS_NODE_VERSION }}
           cache: 'npm'
@@ -218,7 +218,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js ${{ env.CURRENT_NODE_VERSION }}
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@v4.1.0
         with:
           node-version: ${{ env.CURRENT_NODE_VERSION }}
           cache: 'npm'
@@ -245,7 +245,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js ${{ env.CURRENT_NODE_VERSION }}
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@v4.1.0
         with:
           node-version: ${{ env.CURRENT_NODE_VERSION }}
           cache: 'npm'
@@ -272,7 +272,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js ${{ env.CURRENT_NODE_VERSION }}
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@v4.1.0
         with:
           node-version: ${{ env.CURRENT_NODE_VERSION }}
           cache: 'npm'
@@ -303,7 +303,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js ${{ env.CURRENT_NODE_VERSION }}
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@v4.1.0
         with:
           node-version: ${{ env.CURRENT_NODE_VERSION }}
           cache: 'npm'
@@ -333,7 +333,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js ${{ env.CURRENT_NODE_VERSION }}
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@v4.1.0
         with:
           node-version: ${{ env.CURRENT_NODE_VERSION }}
           cache: 'npm'
@@ -363,7 +363,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js ${{ env.CURRENT_NODE_VERSION }}
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@v4.1.0
         with:
           node-version: ${{ env.CURRENT_NODE_VERSION }}
           cache: 'npm'
@@ -393,7 +393,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js ${{ env.CURRENT_NODE_VERSION }}
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@v4.1.0
         with:
           node-version: ${{ env.CURRENT_NODE_VERSION }}
           cache: 'npm'
@@ -423,7 +423,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js ${{ env.CURRENT_NODE_VERSION }}
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@v4.1.0
         with:
           node-version: ${{ env.CURRENT_NODE_VERSION }}
           cache: 'npm'
