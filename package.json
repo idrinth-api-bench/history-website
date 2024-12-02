@@ -31,7 +31,7 @@
     "@typescript-eslint/parser": "^8.12.2",
     "eslint": "^9.0.0",
     "eslint-plugin-svelte": "^2.41.0",
-    "knip": "^5.36.2",
+    "knip": "^5.38.4",
     "markdownlint-cli": "^0.42.0",
     "spellchecker-cli": "^7.0.0",
     "svelte": "^5.1.9",
